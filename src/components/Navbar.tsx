@@ -43,7 +43,9 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
     after:transition-all
     after:duration-300
     hover:after:w-[25%]
-    hover:before:w-[75%]`
+    hover:before:w-[75%]
+    active:after:w-[25%]
+    active:before:w-[75%]`
 
   const styleItem2 = `relative       
     pb-1
@@ -64,7 +66,7 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
     lg:before:top-15
     before:h-0.5
     before:w-0
-  before:bg-gray-300
+    before:bg-gray-300
 
     after:absolute
     after:left-0
@@ -78,8 +80,10 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
 
     after:transition-all
     after:duration-300
-    hover:after:w-[25%]
-    hover:before:w-[60%]`
+    active:after:w-[25%]
+    active:before:w-[60%]
+    lg:hover:after:w-[25%]
+    lg:hover:before:w-[60%]`
 
 
   const navList2 = [
