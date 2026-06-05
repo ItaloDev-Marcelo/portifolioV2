@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import { Navbar } from '../components/Navbar';
+import Header from './Header';
 
 export const FullPage = () => {
       const [openBar, setOpenBar] = useState(false);
@@ -10,9 +11,11 @@ export const FullPage = () => {
   return (
     <div>
       <Navbar hundleNavbar={hundleNavbar} openBar={openBar}/>
-      <div>
-
-      </div>
+      {
+        !openBar && <>
+            <Header/>
+        </>
+      }
     </div>
   )
 }
