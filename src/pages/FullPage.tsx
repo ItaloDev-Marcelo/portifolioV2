@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { Navbar } from '../components/Navbar';
 import Header from './Header';
+import Main from './Main';
 
 export const FullPage = () => {
       const [openBar, setOpenBar] = useState(false);
@@ -14,6 +15,7 @@ export const FullPage = () => {
       {
         !openBar && <>
             <Header/>
+            <Main/>
         </>
       }
     </div>
