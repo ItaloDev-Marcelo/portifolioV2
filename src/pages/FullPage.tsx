@@ -5,7 +5,6 @@ import Main from './Main';
 
 export const FullPage = () => {
       const [openBar, setOpenBar] = useState(false);
-    
       const hundleNavbar = () => setOpenBar(!openBar);
 
 
