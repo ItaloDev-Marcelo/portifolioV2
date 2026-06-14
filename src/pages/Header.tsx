@@ -11,7 +11,7 @@ const Header = () => {
                 <span className='text-5xl md:text-7xl'>Italo <span className='text-blue-700'>Marcelo</span></span> <br/>
                 <span className='text-blue-700 md:text-[1.3rem]'>Desenvolvedor Frontend</span>
             </h1>
-            <p className="my-2.5  xl:text-[1.2rem] ">Transformando ideias em experiências  digitais modernas, <br className=' hidden lg:block'/>  interativas e responsivas.Focados na criação de interfaces  <br className=' hidden lg:block'/> limpas efuncionais com código de alta qualidade.</p>
+            <p className="my-2.5  xl:text-[1.2rem] ">Transformando ideias em experiências  digitais modernas, <br className=' hidden lg:block'/>  interativas e responsivas.Focados na criação de interfaces  <br className=' hidden lg:block'/> limpas e funcionais com código de alta qualidade.</p>
            
            </div>
 
