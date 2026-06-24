@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 type buttonStyle = {
     iconType: number;
     title: string;
-    style: string
+    style: string;
 }
 
 const Button = ({iconType, title, style}:buttonStyle ) => {
