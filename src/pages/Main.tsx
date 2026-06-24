@@ -6,7 +6,7 @@ import Projetos from './Projetos';
 const Main = () => {
   return (
     <main>
-       <section id='skills-section' className='flex flex-col p-5 pb-25 justify-center bg-[#feffff] content-center items-center shadow-sm'>
+       <section id='Skills' className='flex flex-col p-5 pb-25 justify-center bg-[#feffff] content-center items-center shadow-sm'>
              <div className='relative pb-3'>
                  <h2 className='font-bold text-4xl my-10'>Skills</h2>
                  <hr className='relative -top-8 w-14 left-4 border-b-2 border-blue-700 ' />

@@ -23,7 +23,7 @@ const Projetos = () => {
     const data = filteredByCategory(categoria)
 
     return (
-        <section className='bg-[#fbfcfe] py-20 flex flex-col flex-wrap   items-center'>
+        <section id='Projetos' className='bg-[#fbfcfe] py-20 flex flex-col flex-wrap   items-center'>
             <h2 className='text-2xl font-semibold'>Projetos em Destaque</h2>
             <div className='mt-10 flex flex-row gap-5'>
                 <ProjectBtn selected={selected} name='React' categoria={categoria}/>

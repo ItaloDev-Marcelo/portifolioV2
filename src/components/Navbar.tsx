@@ -101,7 +101,7 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
         <ul className='pt-16 lg:pt-0 px-8  box-border relative flex flex-col lg:flex-row'>
           {
             navList2.map(item => (
-              <li key={item.id} className={`${item.style} hover:text-gray-700 active:text-gray-700`}>{item.title}</li>
+              <li key={item.id} className={`${item.style} hover:text-gray-700 active:text-gray-700`}><a href={`#${item.title}`}></a></li>
             ))
           }
         </ul>

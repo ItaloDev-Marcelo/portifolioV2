@@ -3,7 +3,7 @@ import bannerImage from '../assets/banner.png'
 import { SocialRow } from "../components/SocialRow"
 const Header = () => {
   return (
-    <header className="flex flex-col-reverse items-center py-5 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
+    <header id='Home' className="flex flex-col-reverse items-center py-5 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
         <div >
            <div className="p-6 md:p-10 lg:p-6">
                <h1 className='font-bold  leading-8 md:leading-9'>
@@ -17,7 +17,7 @@ const Header = () => {
 
           <div className='px-4 md:px-10 lg:px-4'>
               <div className="flex flex-row flex-wrap ">
-                <a href='#skills-section' >
+                <a href='#Skills' >
                   <Button iconType={1} title='Ver projetos'
                  style='bg-blue-700 text-white mr-4 w-38'  />
                 </a>

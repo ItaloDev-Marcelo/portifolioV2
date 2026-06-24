@@ -5,7 +5,7 @@ import { MdOutlineContactPage } from "react-icons/md";
 import profilePhoto from '../assets/images/photo.jpg'
 const About = () => {
   return (
-    <section className="flex flex-col xl:flex-row items-center xl:justify-evenly justify-center  px-5 py-19 bg-[#feffff]">
+    <section id='Sobre' className="flex flex-col xl:flex-row items-center xl:justify-evenly justify-center  px-5 py-19 bg-[#feffff]">
        <div className="mb-9"><figure>
           <img src={profilePhoto} className='rounded-md w-[200px] xl:w-[250px]' alt='foto de perfil de Italo-marcelo'/>
        </figure></div>

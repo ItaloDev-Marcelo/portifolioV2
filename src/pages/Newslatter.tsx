@@ -2,7 +2,7 @@ import { SocialRow } from "../components/SocialRow"
 import { IoIosSend } from "react-icons/io";
 const Newslatter = () => {
   return (
-    <section className=" flex flex-col xl:flex-row xl:justify-evenly py-8 md:px-14 xl:px-10">
+    <section id='Contato' className=" flex flex-col xl:flex-row xl:justify-evenly py-8 md:px-14 xl:px-10">
         <section >
              <div>
                 <h5 className="text-2xl md:text-3xl font-semibold mb-3">Vamos conversar?</h5>
