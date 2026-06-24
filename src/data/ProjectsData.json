@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "image": "images/api/Rest-country-api.jpg",
+    "title": "REST Countries API with Color Theme Switch",
+    "category": ["Web Apps", "React"],
+    "info": "Aplicação desenvolvida com React e TypeScript que consome a REST Countries API para exibir informações detalhadas sobre países. O usuário pode pesquisar por nome, filtrar por região e alternar entre os temas claro e escuro. O projeto demonstra integração com APIs REST, gerenciamento de estado e criação de interfaces responsivas utilizando Tailwind CSS.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://countries-api-ts.vercel.app/"
+  },
+  {
+    "id": 2,
+    "image": "images/api/Api-address-tracker.jpg",
+    "title": "IP Address Tracker",
+    "category": ["Web Apps", "React"],
+    "info": "Aplicação que permite localizar qualquer endereço IP através de uma API externa, exibindo informações como localização geográfica, provedor de internet e mapa interativo em tempo real. Desenvolvida utilizando React, TypeScript, Axios, Zustand e Tailwind CSS.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Axios",
+      "Zustand"
+    ],
+    "link": "https://ip-address-tracker-master-ts.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "images/api/weather-app.jpg",
+    "title": "Weather App",
+    "category": ["Web Apps", "React"],
+    "info": "Aplicação de previsão do tempo que consulta uma API meteorológica para fornecer informações detalhadas como temperatura, sensação térmica, umidade, velocidade do vento e condições climáticas de qualquer cidade pesquisada pelo usuário.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://weather-app-rose-one-77.vercel.app/"
+  },
+  {
+    "id": 4,
+    "image": "images/api/adivice-generator.jpg",
+    "title": "Advice Generator",
+    "category": ["Web Apps", "React"],
+    "info": "Aplicação que consome uma API para gerar conselhos aleatórios a cada interação do usuário. O projeto demonstra consumo de APIs REST, manipulação de requisições assíncronas e atualização dinâmica da interface em React.",
+    "tacs": [
+      "React",
+      "CSS"
+    ],
+    "link": "https://advice-generator-ch-4.vercel.app/"
+  },
+  {
+    "id": 5,
+    "image": "images/loading-page/manege-loading-page.jpg",
+    "title": "Manage Landing Page",
+    "category": ["Websites", "UI/UX", "React"],
+    "info": "Landing page moderna desenvolvida com React e Material UI, focada em responsividade, organização de componentes reutilizáveis e construção de uma interface limpa e intuitiva para diferentes dispositivos.",
+    "tacs": [
+      "React",
+      "Material UI"
+    ],
+    "link": "https://manage-loading-page-mui-16.vercel.app/"
+  },
+  {
+    "id": 6,
+    "image": "images/loading-page/digital-bank-loading-page.jpg",
+    "title": "Digital Bank Landing Page",
+    "category": ["Websites", "UI/UX", "React"],
+    "info": "Landing page para um banco digital fictício desenvolvida com React e Material UI. O projeto enfatiza responsividade, boas práticas de UI/UX e criação de componentes reutilizáveis para proporcionar uma experiência moderna ao usuário.",
+    "tacs": [
+      "React",
+      "Material UI"
+    ],
+    "link": "https://easybank-ch-14-mui-t.vercel.app/"
+  },
+  {
+    "id": 7,
+    "image": "images/loading-page/loopstudios-loading-page.jpg",
+    "title": "Loopstudios Landing Page",
+    "category": ["Websites", "UI/UX", "React"],
+    "info": "Landing page inspirada em uma empresa de realidade virtual, desenvolvida com React, TypeScript e Tailwind CSS. O projeto inclui testes automatizados com Jest, layout responsivo e organização seguindo boas práticas do desenvolvimento Front-end.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Jest"
+    ],
+    "link": "https://loopstudios-silk-alpha.vercel.app/"
+  },
+  {
+    "id": 8,
+    "image": "images/loading-page/space-tourism-mult-step-webpage.jpg",
+    "title": "Space Tourism Multi-page Website",
+    "category": ["Websites", "UI/UX", "React"],
+    "info": "Website de turismo espacial composto por múltiplas páginas utilizando React Router para navegação entre as seções. O projeto apresenta animações, componentes reutilizáveis, design responsivo e experiência de navegação fluida.",
+    "tacs": [
+      "React",
+      "Material UI",
+      "React Router"
+    ],
+    "link": "https://space-tourism-ch-13.vercel.app/home"
+  },
+  {
+    "id": 9,
+    "image": "images/form/Intro-component-with-sig-up.jpg",
+    "title": "Intro Component with Sign-up Form",
+    "category": ["Websites", "UI/UX", "React"],
+    "info": "Página de cadastro de usuários desenvolvida para praticar criação de formulários, validação de campos, experiência do usuário e construção de layouts totalmente responsivos.",
+    "tacs": [
+      "React",
+      "CSS"
+    ],
+    "link": "https://signup-form-ch-5.vercel.app/"
+  },
+  {
+    "id": 10,
+    "image": "images/form/mult-step-form.jpg",
+    "title": "Multi-step Form",
+    "category": ["Web Apps", "UI/UX", "React"],
+    "info": "Formulário dividido em múltiplas etapas com sistema de navegação entre páginas, validação utilizando Zod e interface construída com Tailwind CSS e DaisyUI. O projeto oferece uma experiência intuitiva e organizada para o preenchimento de informações.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Zod"
+    ],
+    "link": "https://multi-step-form-ts-v2.vercel.app/"
+  },
+  {
+    "id": 11,
+    "image": "images/others/job-listings.jpg",
+    "title": "Job Listings",
+    "category": ["Web Apps", "React"],
+    "info": "Aplicação para listagem de vagas de emprego com sistema de filtros dinâmicos por tecnologias, linguagens e categorias. O projeto demonstra manipulação de dados, filtragem em tempo real e construção de interfaces responsivas utilizando React.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://static-job-one.vercel.app/"
+  },
+  {
+    "id": 12,
+    "image": "images/others/E-commerce-product-page.jpg",
+    "title": "E-commerce Product Page",
+    "category": ["Web Apps", "UI/UX", "React"],
+    "info": "Página de produto para e-commerce com galeria de imagens, seleção de quantidade, carrinho de compras e interface totalmente responsiva. O projeto destaca manipulação de estado, interatividade e foco na experiência do usuário.",
+    "tacs": [
+      "React",
+      "Material UI",
+      "CSS"
+    ],
+    "link": "https://ecommerce-ch-mui-19.vercel.app/"
+  },
+  {
+    "id": 13,
+    "image": "images/others/DineHomePage.png",
+    "title": "Dine Restaurant",
+    "category": ["Web Apps", "UI/UX", "React"],
+    "info": "Website de um restaurante moderno desenvolvido com React, TypeScript e Tailwind CSS. O projeto inclui apresentação do restaurante, cardápio, sistema de reservas e navegação intuitiva, proporcionando uma experiência agradável tanto em dispositivos móveis quanto em desktops.",
+    "tacs": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://dine-restaurant-ch-mui-17.vercel.app/DineHomePage"
+  }
+]
