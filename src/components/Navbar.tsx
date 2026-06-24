@@ -90,7 +90,8 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
   ]
 
   return (
-    <div className='flex flex-row justify-between items-center p-4 lg:py-6 lg:px-9 bg-white blue-200 border-b-2 border-gray-100 '>
+    <div className='flex flex-row justify-between items-center p-4 lg:py-6 lg:px-9
+     bg-white border-b-2 border-gray-100 '>
 
     <a href='index.html' className='lg:ml-7'><img src={logo} alt='logo' className='w-15 md:w-17' /></a>
 
