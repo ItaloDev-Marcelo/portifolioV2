@@ -2,6 +2,8 @@ import {useState} from 'react'
 import { Navbar } from '../components/Navbar';
 import Header from './Header';
 import Main from './Main';
+import Newslatter from './Newslatter';
+import Footer from './Footer';
 
 export const FullPage = () => {
       const [openBar, setOpenBar] = useState(false);
@@ -15,6 +17,8 @@ export const FullPage = () => {
         !openBar && <>
             <Header/>
             <Main/>
+            <Newslatter/>
+            <Footer/>
         </>
       }
     </div>
