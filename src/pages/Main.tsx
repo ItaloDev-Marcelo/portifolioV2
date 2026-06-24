@@ -1,10 +1,12 @@
 import SkillsCards from '../components/SkillsCards';
 import { IconsData } from '../data/SkillsCardsData';
+import About from './About';
+import Projetos from './Projetos';
 
 const Main = () => {
   return (
     <main>
-       <section className='flex flex-col p-5 justify-center bg-[#feffff] content-center items-center shadow-sm'>
+       <section id='skills-section' className='flex flex-col p-5 pb-25 justify-center bg-[#feffff] content-center items-center shadow-sm'>
              <div className='relative pb-3'>
                  <h2 className='font-bold text-4xl my-10'>Skills</h2>
                  <hr className='relative -top-8 w-14 left-4 border-b-2 border-blue-700 ' />
@@ -17,6 +19,8 @@ const Main = () => {
            }
           </div>
         </section> 
+        <Projetos/>
+        <About/>
     </main>
   )
 }
