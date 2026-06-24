@@ -17,8 +17,14 @@ const Header = () => {
 
           <div className='px-4 md:px-10 lg:px-4'>
               <div className="flex flex-row flex-wrap ">
-                <Button iconType={1} title='Ver projetos' style='bg-blue-700 text-white mr-4 w-38' />
-                <Button iconType={2} title='Download CV' style='btn-outline btn-primary w-40' />
+                <a href='#skills-section' >
+                  <Button iconType={1} title='Ver projetos'
+                 style='bg-blue-700 text-white mr-4 w-38'  />
+                </a>
+                <a href='https://drive.google.com/file/d/1pfdjJ0q-xgNM0WPAQsKunSR8Be-CJGkh/view?usp=drivesdk' target='_blank'>
+                  <Button iconType={2} title='Download CV'
+                 style='btn-outline btn-primary w-40' />
+                </a>
             </div>
              <div className='pt-6'>
                 <h2 className='font-semibolld'>Me encontre em</h2>
