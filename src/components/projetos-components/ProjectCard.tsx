@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 type ProjectCardType = {
     id: number,
@@ -9,16 +10,19 @@ type ProjectCardType = {
 }
 
 const ProjectCard = ({id,img,title,text,tacs,link}:ProjectCardType) => {
+  const [active, setActive] = useState(false)
   return (
-    <article key={id} className="card bg-base-100 w-96 xl:h-127 md:w-75 xl:w-96  shadow-sm">
+    <article key={id} className={`card bg-base-100 w-85 md:w-75 xl:w-96 ${active ? '' : 'xl:h-127'}  shadow-sm`}>
   <figure>
     <img
       src={img}
       alt={title} />
   </figure>
   <div className="card-body">
-    <h2 className="card-title">{title}</h2>
-    <p className="line-clamp-2">{text}</p>
+       <h2 className="card-title">{title}</h2>
+    <button className='bg-transparent text-justify' onClick={() => setActive(!active)}>
+       <p className={`${active ? '' : 'line-clamp-2'}`}>{text}</p>
+    </button>
     <div className="card-actions flex flex-col">
        <div className='flex flex-row flex-wrap w-[75%] gap-1 pb-2 items-center'>
         {
