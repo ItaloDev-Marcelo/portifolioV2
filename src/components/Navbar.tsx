@@ -97,11 +97,13 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
 
     <button onClick={hundleNavbar} className='lg:hidden '>{!openBar ? <FiAlignJustify size='35' /> : <FiX size='35' />}</button>
 
-      <nav className={`${openBar ? 'flex' : 'hidden lg:flex'}  shadow-hidden lg:h-auto lg:w-auto w-screen h-full lg:relative lg:top-0  fixed left-0 top-18  bg-[#ececfb] lg:bg-transparent`}>
+      <nav className={`${openBar ? 'flex' : 'hidden'}
+    lg:flex
+    fixed lg:relative  shadow-hidden lg:h-auto lg:w-auto w-screen h-full lg:top-0 left-0 top-18  bg-[#ececfb] lg:bg-transparent`}>
         <ul className='pt-16 lg:pt-0 px-8  box-border relative flex flex-col lg:flex-row'>
           {
             navList2.map(item => (
-              <li key={item.id} className={`${item.style} hover:text-gray-700 active:text-gray-700`}><a href={`#${item.title}`}>{item.title}</a></li>
+              <li  key={item.id} className={`${item.style} hover:text-gray-700 active:text-gray-700`}><a href={`#${item.title}`}  onClick={hundleNavbar}>{item.title}</a></li>
             ))
           }
         </ul>
