@@ -3,7 +3,7 @@ import bannerImage from '../assets/banner.png'
 import { SocialRow } from "../components/SocialRow"
 const Header = () => {
   return (
-    <header id='Home' className="flex flex-col-reverse items-center py-5 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
+    <header id='Home' className="flex flex-col-reverse shadow-xl/20 items-center py-10 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
         <div >
            <div className="p-6 md:p-10 lg:p-6">
                <h1 className='font-bold  leading-8 md:leading-9'>
@@ -11,7 +11,7 @@ const Header = () => {
                 <span className='text-5xl md:text-7xl'>Italo <span className='text-blue-700'>Marcelo</span></span> <br/>
                 <span className='text-blue-700 md:text-[1.3rem]'>Desenvolvedor Frontend</span>
             </h1>
-            <p className="my-2.5  xl:text-[1.2rem] ">Transformando ideias em experiências  digitais modernas, <br className=' hidden lg:block'/>  interativas e responsivas.Focados na criação de interfaces  <br className=' hidden lg:block'/> limpas e funcionais com código de alta qualidade.</p>
+            <p className="my-2.5  xl:text-[1.2rem] md:w-[50%] xl:w-full ">Transformando ideias em experiências  digitais modernas, <br className=' hidden lg:block'/>  interativas e responsivas.Focados na criação de interfaces  <br className=' hidden lg:block'/> limpas e funcionais com código de alta qualidade.</p>
            
            </div>
 

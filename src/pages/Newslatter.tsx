@@ -2,11 +2,11 @@ import { SocialRow } from "../components/SocialRow"
 import { IoIosSend } from "react-icons/io";
 const Newslatter = () => {
   return (
-    <section id='Contato' className=" flex flex-col xl:flex-row xl:justify-evenly py-8 md:px-14 xl:px-10">
+    <section id='Contato' className=" flex flex-col xl:flex-row xl:justify-evenly px-5 py-8 md:px-14 xl:px-10">
         <section >
              <div>
                 <h5 className="text-2xl md:text-3xl font-semibold mb-3">Vamos conversar?</h5>
-                <hr className="text-blue-700 w-20"/>
+                <div className="bg-blue-700 w-25 h-[0.1em] rounded-md ml-1"></div>
              </div>
              <p className="w-[80%] xl:w-full md:text-3xl xl:text-[1.2em] my-6">Tem um projeto em mente ou quer trocar uma ideia? <br className='hidden xl:flex'/>
              Fique á vontade para me enviar uma mensagem.
@@ -22,12 +22,14 @@ const Newslatter = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <input
           type="text"
+          name='Nome'
           placeholder="Nome"
           className="input w-full h-10"
         />
 
         <input
           type="email"
+          name='Email'
           placeholder="Email"
           className="input w-full h-10"
         />
@@ -35,6 +37,7 @@ const Newslatter = () => {
 
       <input
         type="text"
+        name='Assunto'
         placeholder="Assunto"
         className="input w-full"
       />
@@ -42,6 +45,7 @@ const Newslatter = () => {
       <textarea
         rows={4}
         className="textarea w-full"
+        name='mensagem'
         placeholder="Mensagem"
       />
 
