@@ -1,0 +1,22 @@
+import { useState } from 'react'
+import { Navbar } from './Navbar';
+import Header from './Header';
+import Main from './Main';
+import Newslatter from './Newslatter';
+import Footer from './Footer';
+
+export const FullPage = () => {
+  const [openBar, setOpenBar] = useState(false);
+  const hundleNavbar = () => setOpenBar(!openBar);
+
+
+  return (
+    <div>
+      <Navbar hundleNavbar={hundleNavbar} openBar={openBar} />
+      <Header />
+      <Main />
+      <Newslatter />
+      <Footer />
+    </div>
+  )
+}

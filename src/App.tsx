@@ -1,5 +1,5 @@
 import './App.css'
-import { FullPage } from './pages/FullPage'
+import { FullPage } from './components/FullPage'
 
 function App() {
 
