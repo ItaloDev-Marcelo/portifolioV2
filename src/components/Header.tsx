@@ -3,7 +3,7 @@ import bannerImage from '../assets/banner.png'
 import { SocialRow } from "./SocialRow"
 const Header = () => {
   return (
-    <header id='Home' className="flex flex-col-reverse shadow-xl/20 items-center py-10 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
+    <header id='Home' className="flex flex-col-reverse shadow-xl/20 items-center py-10 dark:bg-gray-800 bg-[#fcfcfe] lg:flex-row lg:justify-between lg:px-7 xl:px-26  ">
         <div >
            <div className="p-6 md:p-10 lg:p-6">
                <h1 className='font-bold  leading-8 md:leading-9'>
@@ -19,7 +19,7 @@ const Header = () => {
               <div className="flex flex-row flex-wrap ">
                 <a href='#Skills' >
                   <Button iconType={1} title='Ver projetos'
-                 style='bg-blue-700 text-white mr-4 w-38'  />
+                 style='bg-blue-700 text-white mr-4 w-38 dark:bg-blue-900'  />
                 </a>
                 <a href='https://drive.google.com/file/d/1pfdjJ0q-xgNM0WPAQsKunSR8Be-CJGkh/view?usp=drivesdk' target='_blank'>
                   <Button iconType={2} title='Download CV'

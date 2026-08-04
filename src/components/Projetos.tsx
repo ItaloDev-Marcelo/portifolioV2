@@ -23,7 +23,7 @@ const Projetos = () => {
     const data = filteredByCategory(categoria)
 
     return (
-        <section id='Projetos' className='bg-[#fbfcfe] shadow-md  py-20 flex flex-col flex-wrap   items-center'>
+        <section id='Projetos' className='bg-[#fbfcfe] dark:bg-gray-800 shadow-md  py-20 flex flex-col flex-wrap   items-center'>
             <h2 className='text-2xl font-semibold'>Projetos em Destaque</h2>
             <div className='mt-10 flex flex-row gap-5'>
                 <ProjectBtn selected={selected} name='React' categoria={categoria}/>
@@ -39,7 +39,9 @@ const Projetos = () => {
                 ))
               }
            </div>
-            <button className='btn mt-7 btn-outline btn-primary hover:bg-blue-700 hover:text-white' onClick={hundleMore}>{!all ?  'Ver todos os projetos ➝' : 'Ver menos projetos' }</button>
+            <button className='btn mt-7 btn-outline btn-primary
+             hover:bg-blue-700 dark:hover:bg-gray-700 dark:bg-transparent
+              dark:border-[#e5e5e5] hover:text-white' onClick={hundleMore}>{!all ?  'Ver todos os projetos ➝' : 'Ver menos projetos' }</button>
         </section>
     )
 }

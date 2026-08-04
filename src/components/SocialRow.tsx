@@ -13,7 +13,7 @@ export const SocialRow = () => {
   target="_blank"
   rel="noopener noreferrer">
     <SocialBtn>
-        <FaGithub size='20'/>
+        <FaGithub size='20' className="dark:text-black"/>
       </SocialBtn>
   </a>
 
@@ -21,20 +21,20 @@ export const SocialRow = () => {
   target="_blank"
   rel="noopener noreferrer">
     <SocialBtn>
-         <FaLinkedinIn size='20'/>
+         <FaLinkedinIn size='20' className="dark:text-black"/>
       </SocialBtn>
   </a>
       
       <a href="https://wa.me/5573981339671?text=Olá,%20gostaria%20de%20falar%20com%20você.">
       <SocialBtn>
-         <IoLogoWhatsapp size='20' />
+         <IoLogoWhatsapp size='20' className="dark:text-black" />
       </SocialBtn>
       </a>
 
       
       <a href='mailto:devfrontend2028study@gmail.com' >
         <SocialBtn>
-          <MdEmail size='20'/>
+          <MdEmail size='20' className="dark:text-black"/>
       </SocialBtn>
       </a>
 

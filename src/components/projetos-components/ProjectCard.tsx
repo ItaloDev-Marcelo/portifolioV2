@@ -27,12 +27,13 @@ const ProjectCard = ({id,img,title,text,tacs,link}:ProjectCardType) => {
        <div className='flex flex-row flex-wrap w-[75%] gap-1 pb-2 items-center'>
         {
         tacs.map((item,index) => (
-              <div key={index} className="bg-gray-100 mr-1 text-gray-800 rounded-lg font-medium p-1">{item}</div>
+              <div key={index} className="bg-gray-100 dark:bg-gray-500
+               mr-1 text-gray-800 dark:text-white rounded-lg font-medium p-1">{item}</div>
         ))
        }
        </div>
-       <a href={link} target='_blank'>
-      <button className="btn btn-ghost text-blue-700">Ver Projeto ➝</button>
+       <a href={link} target='_blank' className="btn btn-ghost text-blue-700 dark:text-white">
+       Ver Projeto ➝
        </a>
     </div>
   </div>

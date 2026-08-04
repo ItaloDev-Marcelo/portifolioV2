@@ -1,6 +1,6 @@
-import logo from '../assets/logo.png'
 import { FiAlignJustify } from "react-icons/fi";
 import { FiX } from "react-icons/fi";
+import { FaCode } from "react-icons/fa6";
 
 type navPropsType = {
   hundleNavbar: () => void;
@@ -59,7 +59,6 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
     active:after:w-[25%]
     active:before:w-[75%]
     `
-  
 
   const navList2 = [
     {
@@ -91,9 +90,11 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
 
   return (
     <div className='flex flex-row justify-between items-center p-4 lg:py-6 lg:px-9
-     bg-white border-b-2 border-gray-100 '>
+     bg-white dark:bg-gray-800 dark:border-gray-600  border-b-2 border-gray-100 '>
 
-    <a href='index.html' className='lg:ml-7'><img src={logo} alt='logo' className='w-15 md:w-17' /></a>
+    <a href='index.html' className='lg:ml-7'>
+    <FaCode size={35} className='text-white' />
+    </a>
 
     <button onClick={hundleNavbar} className='lg:hidden '>{!openBar ? <FiAlignJustify size='35' /> : <FiX size='35' />}</button>
 
@@ -103,7 +104,8 @@ export const Navbar = ({ hundleNavbar, openBar }: navPropsType) => {
         <ul className='pt-16 lg:pt-0 px-8  box-border relative flex flex-col lg:flex-row'>
           {
             navList2.map(item => (
-              <li  key={item.id} className={`${item.style} hover:text-gray-700 active:text-gray-700`}><a href={`#${item.title}`}  onClick={hundleNavbar}>{item.title}</a></li>
+              <li  key={item.id} className={`${item.style} hover:text-gray-700 dark:hover:text-gray-200
+               active:text-gray-700`}><a href={`#${item.title}`}  onClick={hundleNavbar}>{item.title}</a></li>
             ))
           }
         </ul>
