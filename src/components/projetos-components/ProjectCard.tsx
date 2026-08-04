@@ -1,16 +1,9 @@
 import { useState } from "react";
-
-type ProjectCardType = {
-    id: number,
-    img: string;
-    title: string;
-    text: string;
-    tacs: string[];
-    link: string
-}
+import type { ProjectCardType } from "../../shared/types/ProjectCardType";
 
 const ProjectCard = ({id,img,title,text,tacs,link}:ProjectCardType) => {
   const [active, setActive] = useState(false)
+  
   return (
     <article key={id} className={`card bg-base-100 w-85 md:w-75 xl:w-96 ${active ? '' : 'xl:h-127'}  shadow-sm`}>
   <figure>

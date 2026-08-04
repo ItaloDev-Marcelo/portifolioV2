@@ -1,7 +1,6 @@
-import type { ReactNode } from "react"
+import type { SocialBtnType } from "../shared/types/SocialBtnType"
 
-type SocialBtnProps = {children: ReactNode}
-export const SocialBtn = ({children}:SocialBtnProps ) => {
+export const SocialBtn = ({children}:SocialBtnType ) => {
   return (
     <button className="btn btn-circle dark:bg-white  mr-3">
       {children}

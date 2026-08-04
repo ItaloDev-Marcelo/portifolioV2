@@ -1,10 +1,4 @@
-import type { IconType } from "react-icons/lib"
-
-type SkillsCardType = {
-  iconTitle: string,
-  skillsIcon: IconType,
-  color: string
-}
+import type { SkillsCardType } from "../shared/types/SkillsCardType"
 
 const SkillsCards = ({iconTitle,skillsIcon, color}:SkillsCardType) => {
   const Icon = skillsIcon

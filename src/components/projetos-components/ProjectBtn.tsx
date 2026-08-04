@@ -1,12 +1,6 @@
-
-type ProjectBtntype = {
-    selected: (title: string) => void;
-    name: string;
-    categoria: string
-}
-
-const ProjectBtn = ({selected, name, categoria}:ProjectBtntype ) => {
-
+import type { Projecttype } from "../../shared/types/ProjectType"
+const ProjectBtn = ({selected, name, categoria}:Projecttype) => {
+  
   const title = name == 'React' ? 'Todos' : name
 
   return (

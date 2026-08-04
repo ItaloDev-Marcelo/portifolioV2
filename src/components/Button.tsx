@@ -1,14 +1,8 @@
 import { BsDownload } from "react-icons/bs";
 import { GoArrowRight } from "react-icons/go";
+import type { buttonType } from "../shared/types/ButtonType";
 
-
-type buttonStyle = {
-    iconType: number;
-    title: string;
-    style: string;
-}
-
-const Button = ({iconType, title, style}:buttonStyle ) => {
+const Button = ({iconType, title, style}:buttonType) => {
     return (
         <button className={`btn  my-2 lg:my-0  flex flex-row justify-evenly items-center ${style}`}>
              <p className='pr-4'>{title}</p>
